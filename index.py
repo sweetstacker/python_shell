@@ -2,9 +2,10 @@ import os
 import subprocess
 
 def my_shell():
+    print(f"{os.getcwd()} ||| python_fakeos(shell) by sweetstacker ")
     while True:
         #디렉토리 경로(현재의 디렉토리?)
-        command_cmd = input(f"{os.getcwd()} $ ")
+        command_cmd = input("==>  ")
 
         #명령어 processing
         if command_cmd == "exit": #Exit
